@@ -22,6 +22,7 @@ export const getGanttConfig = () => {
       calendar: "8hrs", // "8hrs" calendar registered through addCalendar(..) function when gantt is created
       skipNonWorkingTimeWhenSchedulingManually: true,
       skipNonWorkingTimeInDurationWhenSchedulingManually: true,
+      maxCalendarRange : 10 * 365 * 24 * 60 * 60 * 1000, // 10 years in milliseconds
 
       taskStore: {
         useRawData: true,
