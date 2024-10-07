@@ -3,7 +3,7 @@
  */
 import { BryntumGanttProps } from "@bryntum/gantt-react";
 
-import { data } from "./GanttData";
+import { data } from "./GanttData2";
 import { Gantt } from "@bryntum/gantt";
 
 export const getGanttConfig = () => {
