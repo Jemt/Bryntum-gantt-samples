@@ -18,7 +18,7 @@ export const getGanttConfig = () => {
     barMargin: 10,
 
     project: {
-      hoursPerDay: 8,   // BUG: Causes incorrect calculation of duration/days despite use of "8hrs" calendar
+      hoursPerDay: 8,
       calendar: "8hrs", // "8hrs" calendar registered through addCalendar(..) function when gantt is created
       skipNonWorkingTimeWhenSchedulingManually: true,
       skipNonWorkingTimeInDurationWhenSchedulingManually: true,
